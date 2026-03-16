@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Mon Site Personnel STAPS</title>
+<style>
+body { font-family: 'Segoe UI', sans-serif; margin: 0; display: flex; height: 100vh; }
+nav {
+width: 200px;
+background: #2c3e50;
+color: white;
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+nav h1 { font-size: 1.2rem; border-bottom: 1px solid #7f8c8d; padding-bottom: 10px; }
+nav ul { list-style: none; padding: 0; }
+nav li { margin: 15px 0; }
+nav a { color: #ecf0f1; text-decoration: none; font-weight: bold; }
+nav a:hover { color: #3498db; }
+iframe { flex-grow: 1; border: none; background: white; }
+</style>
+</head>
+<body>
+
+<nav>
+<h1>Mon Site</h1>
+<ul>
+<li><a href="presentation.html" target="contenu">Présentation</a></li>
+<li><a href="mon_cv.pdf" target="contenu">Mon CV (PDF)</a></li>
+<li><a href="linkedin.html" target="contenu">LinkedIn</a></li>
+<li><a href="formations.html" target="contenu">Formations L3</a></li>
+<li><a href="debouches.html" target="contenu">Débouchés</a></li>
+</ul>
+</nav>
+
+<iframe name="contenu" src="presentation.html"></iframe>
+
+</body>
+</html>
